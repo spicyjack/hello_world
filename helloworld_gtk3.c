@@ -1,4 +1,9 @@
 // from https://developer.gnome.org/gnome-devel-demos/unstable/hello-world.c.html.en
+// to compile:
+// export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:/opt/X11/lib/pkgconfig/
+// gcc helloworld_gtk3.c `pkg-config --cflags --libs gtk+-3.0` \
+//      -o helloworld_gtk3
+
 #include <gtk/gtk.h>
 
 static void
