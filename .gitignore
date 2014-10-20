@@ -1,0 +1,6 @@
+# vim swapfiles
+*.swp
+# Mac image caches
+.DS_Store
+# binary from GTK3 demo
+helloworld_gtk3
