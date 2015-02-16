@@ -2,5 +2,6 @@
 *.swp
 # Mac image caches
 .DS_Store
-# binary from GTK3 demo
+# binaries from the GTK C libraries
+helloworld_gtk2
 helloworld_gtk3
