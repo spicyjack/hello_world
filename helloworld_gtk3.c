@@ -13,6 +13,7 @@ activate (GtkApplication* app,
   GtkWidget *window;
   GtkWidget *label;
 
+  g_print ("entering activate\n");
   window = gtk_application_window_new (app);
   g_print ("created window object\n");
   label = gtk_label_new ("Hello GNOME!");
